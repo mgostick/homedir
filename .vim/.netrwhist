@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/matt/public_html/gortb/lca2015'
+let g:netrw_dirhist_2='/home/matt/public_html/gortb'
+let g:netrw_dirhist_3='/home/matt/public_html'
+let g:netrw_dirhist_4='/home/matt/public_html/swarm/translators'
+let g:netrw_dirhist_5='/home/matt/public_html/swarm/wtf/ClassFactoryTutorial'
+let g:netrw_dirhist_6='/home/matt/public_html/swarm/wtf/ClassFactoryTutorial/Appliances'
+let g:netrw_dirhist_7='/home/matt/public_html/swarm/src/swarm'
+let g:netrw_dirhist_8='/home/matt/public_html/swarm/src/swarm/translators'
+let g:netrw_dirhist_9='/home/matt/public_html/swarm/go/src/swarm/translators'

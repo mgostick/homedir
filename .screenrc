@@ -1,0 +1,4 @@
+vbell off
+term linux
+termcapinfo xterm|xterms|xs ti=\E7\E[?47l
+startup_message off

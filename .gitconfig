@@ -1,0 +1,5 @@
+[user]
+        name = Matt Gostick
+        email = matt@gostick.ca
+[push]
+        default = simple
