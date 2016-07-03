@@ -5,6 +5,8 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 
 colorscheme desert
 
+set clipboard=unnamedplus
+
 " Enable syntax highlighting
 " You need to reload this file for the change to apply
 filetype off
