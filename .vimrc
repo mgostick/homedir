@@ -39,6 +39,9 @@ set expandtab
 set shiftround
 set smarttab
 
+" 1000 lines of copy/paste buffer
+set viminfo='20,<1000,s1000
+
 set paste
 
 " pathogen!
