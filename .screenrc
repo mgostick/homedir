@@ -1,4 +1,5 @@
 vbell off
 term linux
-termcapinfo xterm|xterms|xs ti=\E7\E[?47l
+# termcapinfo xterm|xterms|xs ti=\E7\E[?47l
+termcapinfo xterm* ti@:te@
 startup_message off
