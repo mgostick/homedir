@@ -21,11 +21,11 @@ nnoremap <Space> za
 
 " Showing line numbers and length
 "set number   " show line numbers
-set tw=159    " width of document
+"set tw=159    " width of document
 set nowrap    " don't automatically wrap on load
 set fo-=t     " don't automatically wrap text when typing
-set colorcolumn=160
-highlight ColorColumn ctermbg=233
+"set colorcolumn=160
+"highlight ColorColumn ctermbg=233
 
 " Make search case insensitive
 set hlsearch
@@ -43,8 +43,6 @@ set smarttab
 
 " 1000 lines of copy/paste buffer
 set viminfo='20,<1000,s1000
-
-set paste
 
 " pathogen!
 execute pathogen#infect()
