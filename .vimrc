@@ -38,11 +38,21 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set shiftround
-set smarttab
+"set shiftround
+"set smarttab
 
 " 1000 lines of copy/paste buffer
 set viminfo='20,<1000,s1000
+
+" auto paste mode detection
+let &t_SI .= "\<Esc>[?2004h"
+let &t_EI .= "\<Esc>[?2004l"
+inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+function! XTermPasteBegin()
+  set pastetoggle=<Esc>[201~
+  set paste
+  return ""
+endfunction
 
 " pathogen!
 execute pathogen#infect()
