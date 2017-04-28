@@ -44,8 +44,20 @@ set smarttab
 " 1000 lines of copy/paste buffer
 set viminfo='20,<1000,s1000
 
+" auto paste mode detection
+let &t_SI .= "\<Esc>[?2004h"
+let &t_EI .= "\<Esc>[?2004l"
+inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+function! XTermPasteBegin()
+  set pastetoggle=<Esc>[201~
+  set paste
+  return ""
+endfunction
+
 " pathogen!
 execute pathogen#infect()
 
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
+" Default is 31, not wide enough
+let g:NERDTreeWinSize=50
