@@ -1,0 +1,68 @@
+[global_config]
+  geometry_hinting = False
+  handle_size = 1
+  inactive_color_offset = 1.0
+  scroll_tabbar = True
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#002b36"
+  title_inactive_fg_color = "#0076c9"
+  title_receive_fg_color = "#0076c9"
+  title_transmit_bg_color = "#002b36"
+  title_transmit_fg_color = "#0076c9"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 556d10e5-7230-45d3-90ad-900d8a59daff
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1920:27
+      size = 1920, 1026
+      title = matt@work ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 778
+      ratio = 0.758771929825
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 961
+      ratio = 0.50078125
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 556d10e5-7230-45d3-90ad-900d8a59daff
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = e08544cb-d648-4d4b-bfa4-b2282b190afe
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 30867d05-ef5c-4f50-95c4-73429f5b8061
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_image = None
+    copy_on_selection = True
+    font = Hack 9
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scroll_on_output = False
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    use_system_font = False
