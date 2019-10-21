@@ -11,3 +11,5 @@ cp .dircolors $HOME/
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 
+cat .bash_aliases >> $HOME/.bash_aliases
+. $HOME/.bash_aliases
