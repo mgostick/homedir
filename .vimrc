@@ -61,3 +61,13 @@ execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
 " Default is 31, not wide enough
 let g:NERDTreeWinSize=50
+
+" scrolling with ctrl and pg keys!
+map <ESC>[1;5D <C-Left>
+map <ESC>[1;5C <C-Right>
+map <ESC>[1;5B <PageDown>
+map <ESC>[1;5A <PageUp>
+map! <ESC>[1;5D <C-Left>
+map! <ESC>[1;5C <C-Right>
+map! <ESC>[1;5B <PageDown>
+map! <ESC>[1;5A <PageUp>
